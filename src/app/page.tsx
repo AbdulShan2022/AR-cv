@@ -10,11 +10,11 @@ export default function Index() {
    */
   return (
     <div className="container">
-      <div className=" main grid grid-rows-1 grid-flow-col">
-        <div className="left-side p-2 col-span-1">
+      <div className=" main ">
+        <div className="left-side">
           <LeftSection content={resume} />
         </div>
-        <div className="right-side col-span-7">
+        <div className="right-side">
           <RightSection content={resume} />
         </div>
       </div>
